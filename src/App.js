@@ -37,8 +37,6 @@ class App extends Component {
         const todos = this.state.todos
         const filterTodos = todos.filter(todo => todo.isCompleted === false)
         this.setState({ todos: filterTodos});
-        
-        
     }
     
     
